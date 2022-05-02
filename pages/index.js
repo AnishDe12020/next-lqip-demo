@@ -18,6 +18,13 @@ export default function Home({ imageUrl, previewImageUrl }) {
           <a href="https://nextjs.org">this demo of LQIP with Next.js!</a>
         </h1>
 
+        <h2 className={styles.description}>
+          Read the blog post{" "}
+          <a href="https://blog.anishde.dev/making-a-blog-with-directus-mdx-and-nextjs-on-demand-isr">
+            Here
+          </a>
+        </h2>
+
         <div style={{ marginTop: "4rem" }}>
           <Image
             src={imageUrl}
